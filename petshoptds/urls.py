@@ -22,4 +22,3 @@ urlpatterns = [
     path('animais', animais),
     path('admin/', admin.site.urls),
 ]
-

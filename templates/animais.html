@@ -1,7 +1,13 @@
+{% extends 'base.html' %}
+
+{% block main %}
+
 {{ animais }}
 
-<ul>
+<ul> 
     {% for animal in animais %}
-        <li>{{ animal }}</li>
-    {% endfor %}
+        <li>{{animal}}</li>
+    {% endfor %} 
 </ul>
+
+ {% endblock %}
